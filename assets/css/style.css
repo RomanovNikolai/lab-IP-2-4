@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    font-family: 'PT Mono', monospace;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+:root{
+    --sizeindex: calc(1vw + 1vh);
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/intro.jpeg") center no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+
+.intro__title{
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.header{
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(45deg, DarkMagenta, Tomato, Violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav{
+    font-size: calc(var(--sizeindex)* 0.45);
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: rgb(181, 36, 128);
+    text-decoration: none;
+    padding: 10px 15px;
+
+    border: 2px solid rgb(181, 36, 128);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s linear, background 0.2s linear;
+}
+
+.nav__link:hover{
+    background-color: #fff;
+    color: #333;
+}
+/*Telephone*/
+.tel{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: auto;
+    top: auto;
+
+
+}
+
+.container1{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+/*Email*/
+.email{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    left: auto;
+    top: auto;
+
+
+}
+
+.container2{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.section{
+    margin-block-start: 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #333;
+
+}
+.container3{
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+}
+.container4{
+    margin-block-start: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#333;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/registr.jpg") center no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+}
+
+.header__logo1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(181, 36, 128);
+}
+.section1{
+    margin-block-start: 10px;
+    font-size: 40px;
+    color: #333;
+}
+
+.section2{
+    margin-block-start: 1vw;
+    font-size: calc(var(--sizeindex)* 1.5);
+    color: rgb(51, 17, 99);
+    word-spacing: 25vw;
+}
+
+form{
+    margin-block-start: 1vw;
+    position: absolute;
+    left: 23.4vw; 
+    width: 15vw;
+}
+
+.sus{
+        position: relative;
+        max-height: 70%;
+        height: 70%;
+        width: 70%;
+        left:25%;
+        top: 8vh;
+        display: flex;
+        flex-direction: row;
+        border-radius: 6vmin;
+        margin: 0;
+}
+
+.tro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background-color: #fff;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+}
+.fbifbi{
+        margin: 0.5vmin;
+        font-size: 1.5vmin;
+        font-family:'Segoe UI';
+        text-align: center;
+        background-color: rgb(124, 241, 150);
+}
+.form-control1{
+    margin-top: 2vh;
+    width: 80%;
+    height: 15%;
+    font-size: 2vmin;
+    font-family:'Segoe UI';
+    text-align: center;
+    color:#000000;
+    border:0.2vmin solid black;
+    border-radius: 1vmin;
+}
+.fbi{
+    word-spacing: 1vw;
+}
+.register2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/registr.jpg") center no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+}
+
+.dcp{
+    
+    position: absolute;
+    color:  rgb(225, 26, 195);
+    right: calc(var(--sizeindex)* 13.5);
+    font-size: 2.5vmin;
+}
+.nav__link1{
+    font-size: calc(var(--sizeindex)* 0.68);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: rgb(181, 36, 128);
+    text-decoration: none;
+    padding: 10px 15px;
+
+    border: 2px solid rgb(181, 36, 128);
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: color 0.2s linear, background 0.2s linear;
+}
+
+.maintext{
+    
+    font-size: calc(var(--sizeindex)* 0.68);
+    color: Olive;
+    text-align:center;
+}
+
+.register5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/deb.jpg") center no-repeat;
+    -webkit-background-size: cover ;
+    background-size: cover ;
+}
+
+
+@media(max-width: 1230px){
+    /* intro */
+    .intro__title{
+        font-size: 120px;
+    }
+    form{
+        position: absolute;
+        left: 3.4vw; 
+        width: 20vw;
+    }
+    .dcp{
+    
+        
+        right: calc(var(--sizeindex)* 1);
+        
+    }
+}
+@media(max-width: 990px){
+    /* intro */
+    .intro__title{
+        font-size: 80px;
+    }
+    form{
+        position: absolute;
+        left: 3.4vw; 
+        width: 30vw;
+    }
+}
+@media(max-width: 650px){
+    /* intro */
+    .intro__title{
+        font-size: 40px;
+    }
+    form{
+        position: absolute;
+        left: 3.4vw; 
+        width: 40vw;
+    }
+}
+@media(max-width: 510px){
+    /* intro */
+    .intro__title{
+        font-size: 40px;
+    }
+    form{
+        position: absolute;
+        left: 3.4vw; 
+        width: 40vw;
+    }
+}
+
