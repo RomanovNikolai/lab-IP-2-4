@@ -16,15 +16,15 @@
        
             <div class="header__logo">Сайт обо мне</div>
             <nav class="nav">
-                <a class="nav__link" href="index1.php">Информация обо мне</a>
-                <a class="nav__link" href="index2.php">Фотогалерея</a>
-                <a class="nav__link" href="index3.php">Контактные данные</a>
-                <a class="nav__link" href="indexml.php">МЛИДМ</a>
+                <a class="nav__link" href="aboutme.php">Информация обо мне</a>
+                <a class="nav__link" href="gallery.php">Фотогалерея</a>
+                <a class="nav__link" href="contacts.php">Контактные данные</a>
+                <a class="nav__link" href="mlidm.php">МЛИДМ</a>
                 <?php
                     if($_COOKIE['user'] == ''):
                 ?>
-                <a class="nav__link" href="index5.php">Регистрация</a>
-                <a class="nav__link" href="index6.php">Вход</a>
+                <a class="nav__link" href="registration.php">Регистрация</a>
+                <a class="nav__link" href="entrance.php">Вход</a>
                 <?php else: ?>
                     <div class="nav__link">
                      <?=$_COOKIE['user']?>  <a href="/exit.php">Выход</a> <a href="/header.php">Админ</a>
